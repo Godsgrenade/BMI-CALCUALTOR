@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>BMI Calculator</title>
+    <script src="bmi.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BMI CALCULATOR</h1>
+    <div class="container">
+        <div class="left">
+            <label for="weight" id="top">Enter your weight:</label><br>
+            <input type="number" id="weight" name="weight">
+            <br><br>
+            <label for="height">Enter your height:</label>
+            <br>
+            <input type="number" id="height" name="weight">
+            <br>
+            <br>
+            <input id="btn"type="button" value="CLEAR" onclick="clr()">
+            <input id="btn"type="button" value="CALCULATE" onclick="calc()">
+            
+        </div>
+        <div class="right">
+            <h2 id="ans">Hey You!</h2>
+            <img id="img" src="hii.gif">
+            <h3 id="cmt"></h3>
+        </div>
+    </div>
+</body>
+</html>
